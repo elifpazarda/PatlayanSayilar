@@ -163,7 +163,6 @@ window.addEventListener("resize", function () {
 // Klavye hareketlerinin dinlenmesi
 window.addEventListener("keydown", (event) => {
   if (event.key === "ArrowLeft") {
-    crab.move("left")
     var intervalId = setInterval(() => {
       crab.move("left")
     }, 100)
@@ -171,7 +170,6 @@ window.addEventListener("keydown", (event) => {
       clearInterval(intervalId)
     })
   } else if (event.key === "ArrowRight") {
-    crab.move("right")
     var intervalId = setInterval(() => {
       crab.move("right")
     }, 100)
