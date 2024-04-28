@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Başlangıç</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>How to Play</h2> <!-- Oyun yönerge başlığı -->
+      <p> <!-- Oyun yönergesi -->
+        Move with <img src="images/arrow.left.png" alt="Left Arrow" />
+        <img src="images/arrow.right.png" alt="Right Arrow" /> and pop the bubbles! The crab moves faster when pressed down!
+      </p>
+      <button id="playButton">PLAY</button> 
+    </div>
+
+    <script>
+      document.getElementById("playButton").onclick = function () {
+        window.location.href = "index2.html" 
+      }
+    </script>
+  </body>
+</html>

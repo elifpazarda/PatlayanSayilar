@@ -1,0 +1,60 @@
+/* HTML elemanlarını sıfırla ve sayfanın yüksekliğini %100 yapar */
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Canvas elementinin genişliğini ve yüksekliğini %100 yap, arka plan rengini belirler */
+canvas {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+/* Sayfa gövdesini ve içeriğini düzenler */
+body {
+  font-family: "Arial", sans-serif; /* Yazı tipini belirler */
+  background-color: #348fda; /* Arka plan rengini belirler */
+  margin: 0; /* Kenar boşluğunu sıfırlar */
+  padding: 0; /* İçerik boşluğunu sıfırlar */
+  height: 100vh; /* Sayfanın tamamını kaplar */
+  display: flex; /* İçeriği dikey ve yatay olarak ortalar */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Oyun alanını saran konteynerin stilini belirler */
+.container {
+  background-color: #91cdd5; /* Arka plan rengini belirler */
+  width: 300px; /* Genişliği belirler */
+  padding: 20px; /* İç boşluğu belirler */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti ekler */
+  text-align: center; /* Metin hizalamasını ortalar */
+  border-radius: 8px; /* Kenarları yuvarlar */
+}
+
+/* Başlık etiketlerini stilini belirler */
+h2 {
+  margin-bottom: 20px; /* Alt boşluğu belirler */
+}
+
+/* Paragraf etiketlerini stilini belirler */
+p {
+  margin-bottom: 30px; /* Alt boşluğu belirler */
+}
+
+/* Oyunu başlatmak için düğme stilini belirler */
+#playButton {
+  background-color: #000000; /* Arka plan rengini belirler */
+  color: #ffffff; /* Metin rengini belirler */
+  padding: 10px 20px; /* İç boşluğu belirler */
+  font-size: 1.2em; /* Yazı boyutunu belirler */
+  border: none; /* Kenarlığı kaldırır */
+  cursor: pointer; /* Farenin üzerine gelindiğinde imleci değiştirir */
+  transition: background-color 0.3s ease; /* Geçiş efekti ekler */
+}
+
+/* Düğmeye fare geldiğinde arka plan rengini değiştirir */
+#playButton:hover {
+  background-color: #555555;
+}
