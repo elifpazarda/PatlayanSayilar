@@ -5,8 +5,7 @@
 - Bu oyun temel olarak sayıları zihinden toplama işlemini kolaylaştırıp eğlenceli bir hale getirmek için tasarlanmıştır.  
 
 ## Oyunun Web Sitesi 
-- [https://elifpazarda.github.io/PatlayanSayilar/](elifpazarda.github.io/PatlayanSayilar/)
-
+- [elifpazarda.github.io/PatlayanSayilar/]
 
 ## Youtube Video Linki 
 - [Patlayan Sayılar Oyunu Youtube Videosu ](https://www.youtube.com/watch?v=KHBIlWConyc)
